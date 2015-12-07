@@ -1,0 +1,20 @@
+package:
+  name: v10
+  version: 3.18.5
+
+source:
+  git_url: git://github.com/v8/v8.git
+  git_tag: 3.18.5
+
+
+build:
+  number: 0
+
+requirements:
+    build:
+        - python
+
+
+about:
+  home: http://www.github.com/v8/v8
+  license: V8

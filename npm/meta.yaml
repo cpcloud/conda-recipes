@@ -1,0 +1,18 @@
+package:
+  name: npm
+  version: v1.4.25
+
+source:
+  git_url: git://github.com/npm/npm.git
+  git_tag: v1.4.25
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - nodejs
+
+about:
+  home: http://www.npmjs.org
+  license: MIT

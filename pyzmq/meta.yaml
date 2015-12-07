@@ -12,11 +12,11 @@ build:
 
 requirements:
   build:
-    - python
+    - python >=2.7,<3.3|>=3.4
     - zeromq
 
   run:
-    - python
+    - python >=2.7,<3.3|>=3.4
     - zeromq
 
 test:

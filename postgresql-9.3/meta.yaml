@@ -14,21 +14,17 @@ requirements:
     - python
     - openssl
     - readline
-    - libxml2
-    - libxslt
     # 10.9 appears to have an issue with libxml2.
-    #- libxml2   [not osx]
-    #- libxslt   [not osx]
+    - libxml2   [not osx]
+    - libxslt   [not osx]
     - zlib
     - system    [linux]
   run:
     - python
     - openssl
     - readline
-    - libxml2
-    - libxslt
-    #- libxml2   [not osx]
-    #- libxslt   [not osx]
+    - libxml2   [not osx]
+    - libxslt   [not osx]
     - zlib
     - system    [linux]
 

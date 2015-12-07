@@ -1,0 +1,18 @@
+package:
+  name: curl
+  version: 7.37.1
+
+source:
+  git_url: git://github.com/bagder/curl.git
+  git_tag: curl-7_37_1
+
+requirements:
+  build:
+    - autoconf
+    - automake
+    - libtool
+    - m4
+
+about:
+  home: http://curl.haxx.se
+  license: COPYRIGHT

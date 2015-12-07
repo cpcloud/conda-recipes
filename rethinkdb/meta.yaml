@@ -1,0 +1,26 @@
+package:
+  name: v8
+  version: 3.27.34.12
+
+source:
+  git_url: git://github.com/v8/v8.git
+  git_tag: 3.27.34.12
+
+
+build:
+  number: 0
+
+
+requirements:
+  build:
+    - protobuf
+    - nodejs
+    - npm
+    - boost
+    - python
+    - curl
+    - ncurses
+
+about:
+  home: http://www.rethinkdb.com
+  license: AGPL

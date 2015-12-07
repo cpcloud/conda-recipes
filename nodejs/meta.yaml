@@ -1,0 +1,20 @@
+package:
+  name: nodejs
+  version: v0.10.31
+
+source:
+  git_url: https://github.com/joyent/node
+  git_tag: v0.10.31
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - curl
+    - perl
+    - python
+
+about:
+  home: https://github.com/joyent/node
+  license: MIT
